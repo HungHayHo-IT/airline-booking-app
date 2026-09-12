@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dff9ea9-4996-4ba3-a3c6-05d62fd1b910" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/AirportDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/BookingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/CreateBookingRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/CreateFlightRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/FlightDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/PassengerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Airport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Passenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +40,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3JD6b5dnxyu5yzsEGKKDUyNxwlp" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -36,7 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/enums-configs",
+    "git-widget-placeholder": "feature/model-dto",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
