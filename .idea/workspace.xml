@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dff9ea9-4996-4ba3-a3c6-05d62fd1b910" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/FlightDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/dto/FlightDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/entity/Flight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
