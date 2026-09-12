@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dff9ea9-4996-4ba3-a3c6-05d62fd1b910" name="Changes" comment="" />
+    <list default="true" id="4dff9ea9-4996-4ba3-a3c6-05d62fd1b910" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/AirportRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/BookingRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/EmailNotificationRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/FlightRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/PassengerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/RoleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/repo/UserRepo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,15 +38,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/model-dto&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AirlineBookingAppApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/setup-package",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AirlineBookingAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.airline_booking_app.AirlineBookingAppApplication" />
+      <module name="airline-booking-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.airline_booking_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AirlineBookingAppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4dff9ea9-4996-4ba3-a3c6-05d62fd1b910" name="Changes" comment="" />
