@@ -1,7 +1,7 @@
 import { Navigate, useLocation } from "react-router-dom";
 import ApiService from "./ApiService";
 
-export default RouteGuard = ({ element: Component, allowedRoles }) => {
+export const RouteGuard = ({ element: Component, allowedRoles }) => {
   const location = useLocation();
 
   let hasRequiredRole = false;
@@ -25,7 +25,6 @@ export default RouteGuard = ({ element: Component, allowedRoles }) => {
   if (hasRequiredRole) {
     return Component;
   } else {
-    // If not authorized, redirect to the login page
     return <Navigate to="/login" replace state={{ from: location }} />;
   }
 };
