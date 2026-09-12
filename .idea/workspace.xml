@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dff9ea9-4996-4ba3-a3c6-05d62fd1b910" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/config/ModelMapperConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/enums/AuthMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/enums/BookingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/enums/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/enums/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/enums/FlightStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/airline_booking_app/enums/PassengerType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
