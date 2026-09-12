@@ -26,17 +26,17 @@ public class AuthUser implements UserDetails {
     }
 
     @Override
-    public @Nullable String getPassword() {
-        return "";
+    public String getPassword() {
+        return user.getPassword();
     }
 
     @Override
     public String getUsername() {
-        return "";
+        return user.getEmail();
     }
 
     @Override
     public boolean isEnabled() {
-        return UserDetails.super.isEnabled();
+        return user.isActive();
     }
 }
