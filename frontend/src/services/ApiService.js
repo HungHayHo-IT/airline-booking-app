@@ -1,7 +1,8 @@
 import axios from "axios";
 
 export default class ApiService {
-  static BASE_URL = "http://localhost:8080/api";
+  static BASE_URL =
+     import.meta.env.VITE_API_URL || "http://localhost:8080/api";
 
   static saveToken(token) {
     localStorage.setItem("token", token);
