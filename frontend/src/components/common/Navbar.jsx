@@ -1,5 +1,4 @@
-import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import ApiService from "../../services/ApiService";
 
 const Navbar = () => {
@@ -9,6 +8,14 @@ const Navbar = () => {
   const isCustomer = ApiService.isCustomer();
 
   const navigate = useNavigate();
+
+  const handleLogout = () => {
+    const isLogout = window.confirm("Are you sure you want to logout? ");
+    if (isLogout) {
+      ApiService.logout();
+      navigate("/login");
+    }
+  };
 
   return (
     <nav className="nb">
@@ -31,22 +38,26 @@ const Navbar = () => {
           {isAuthenticated ? (
             <>
               {isCustomer && (
-                <Link to="/profile " className="nav-link">
-                  Profile
-                </Link>
+                <>
+                  <Link to="/profile" className="nav-link">
+                    Profile
+                  </Link>
+                </>
               )}
-
               {isPilot && (
                 <Link to="/admin" className="nav-link">
                   Pilot
                 </Link>
               )}
-
               {isAdmin && (
                 <Link to="/admin" className="nav-link">
                   Admin
                 </Link>
               )}
+
+              <button className="nav-button" onClick={handleLogout}>
+                Logout
+              </button>
             </>
           ) : (
             <>
