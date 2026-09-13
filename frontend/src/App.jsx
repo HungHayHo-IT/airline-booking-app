@@ -6,6 +6,9 @@ import RegisterPage from "./components/auth/RegisterPage";
 import LoginPage from "./components/auth/LoginPage";
 import HomePage from "./components/pages/HomePage";
 import FindFlightsPage from "./components/pages/FindFlightsPage";
+import ProfilePage from "./components/profile/ProfilePage";
+import { RouteGuard } from "./services/RouteGuard";
+import UpdateProfilePage from "./components/profile/UpdateProfilePage";
 
 function App() {
   return (
@@ -18,6 +21,25 @@ function App() {
 
           <Route path="/home" element={<HomePage />} />
           <Route path="/flights" element={<FindFlightsPage />} />
+
+          <Route
+            path="/profile"
+            element={
+              <RouteGuard
+                allowedRoles={["CUSTOMER"]}
+                element={<ProfilePage />}
+              />
+            }
+          />
+          <Route
+            path="/update-profile"
+            element={
+              <RouteGuard
+                allowedRoles={["CUSTOMER"]}
+                element={<UpdateProfilePage />}
+              />
+            }
+          />
         </Routes>
       </div>
       <Footer />
